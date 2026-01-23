@@ -1,0 +1,19 @@
+{
+  "name": "belajar-typescript-dasar",
+  "version": "1.0.0",
+  "description": "Belajar Typescript Dasar",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rafafadilaras/belajar-typescript-dasar.git"
+  },
+  "author": "Rafa Fadil Aras",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rafafadilaras/belajar-typescript-dasar/issues"
+  },
+  "homepage": "https://github.com/rafafadilaras/belajar-typescript-dasar#readme"
+}
