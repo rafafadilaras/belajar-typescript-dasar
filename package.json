@@ -12,6 +12,7 @@
   },
   "author": "Rafa Fadil Aras",
   "license": "ISC",
+  "type": "module",
   "bugs": {
     "url": "https://github.com/rafafadilaras/belajar-typescript-dasar/issues"
   },
