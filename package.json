@@ -16,5 +16,9 @@
   "bugs": {
     "url": "https://github.com/rafafadilaras/belajar-typescript-dasar/issues"
   },
-  "homepage": "https://github.com/rafafadilaras/belajar-typescript-dasar#readme"
+  "homepage": "https://github.com/rafafadilaras/belajar-typescript-dasar#readme",
+  "devDependencies": {
+    "@types/jest": "^30.0.0",
+    "jest": "^30.2.0"
+  }
 }
