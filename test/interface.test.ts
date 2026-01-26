@@ -96,4 +96,25 @@ describe('Interface', function() {
         console.info(person.sayHello("Rafa"));
 
     });
+
+    it('should support intersection type', function() {
+
+        interface HashName {
+            name: string
+        }
+
+        interface HashId {
+            id: string
+        }
+
+        type Domain = HashId & HashName;
+
+        const domain: Domain = {
+            id: "1",
+            name: "Rafa"
+        }
+
+        console.info(domain);
+
+    });
 });
