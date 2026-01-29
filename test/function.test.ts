@@ -71,4 +71,24 @@ describe('Function', function () {
 
     });
 
+    it('should support function as parameter', function() {
+
+        function sayHello(name: string, filter: (name: string) => string) : String {
+            return `Hello ${filter(name)}`;
+        }
+
+        function toUpper(name: string): string {
+            return name.toUpperCase();
+        }
+
+        expect(sayHello("Rafa", toUpper)).toBe("Hello RAFA");
+
+        expect(sayHello("Rafa", function (name: string): string{
+            return name.toUpperCase();
+        })).toBe("Hello RAFA");
+
+        expect(sayHello("Rafa", (name: string): string => name.toUpperCase())).toBe("Hello RAFA");
+
+    });
+
 });
